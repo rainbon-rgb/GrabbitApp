@@ -1,5 +1,5 @@
 import '/core/app_export.dart';
-import 'package:grabbitapp/presentation/delete_a_rabbit_screen/models/delete_a_rabbit_model.dart';
+import 'package:grabbitapp/presentation/delete_a_rabbit_bottomsheet/models/delete_a_rabbit_model.dart';
 
 class DeleteARabbitController extends GetxController {
   Rx<DeleteARabbitModel> deleteARabbitModelObj = DeleteARabbitModel().obs;

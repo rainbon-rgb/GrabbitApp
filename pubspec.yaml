@@ -27,12 +27,6 @@ flutter:
     - assets/
     - assets/images/
   fonts: 
-    - family: Montserrat
-      fonts: 
-        - asset: assets/fonts/montserratlight300.ttf
-          weight: 300
-        - asset: assets/fonts/montserratmontserratromanmedium500.ttf
-          weight: 500
     - family: Roboto
       fonts: 
         - asset: assets/fonts/robotorobotoromanregular400.ttf
@@ -47,6 +41,10 @@ flutter:
           weight: 600
         - asset: assets/fonts/poppinsregular400.ttf
           weight: 400
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/montserratmontserratromanmedium500.ttf
+          weight: 500
     - family: Abel
       fonts: 
         - asset: assets/fonts/abelregular400.ttf

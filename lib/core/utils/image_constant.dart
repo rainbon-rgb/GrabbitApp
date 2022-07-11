@@ -13,11 +13,19 @@ class ImageConstant {
 
   static String imgGrabbitlogo1 = 'assets/images/img_grabbitlogo_1.png';
 
+  static String imgBack5 = 'assets/images/img_back_5.png';
+
   static String imgCalifornianrab1 = 'assets/images/img_californianrab_1.png';
 
   static String imgChevron2 = 'assets/images/img_chevron_2.svg';
 
+  static String imgBack8 = 'assets/images/img_back_8.png';
+
+  static String imgBack4 = 'assets/images/img_back_4.png';
+
   static String imgStar = 'assets/images/img_star.png';
+
+  static String imgBack2 = 'assets/images/img_back_2.png';
 
   static String imgLockeddoor = 'assets/images/img_lockeddoor.png';
 
@@ -25,7 +33,11 @@ class ImageConstant {
 
   static String imgCageicon = 'assets/images/img_cageicon.png';
 
+  static String imgBack = 'assets/images/img_back.png';
+
   static String imgChevron3 = 'assets/images/img_chevron_3.svg';
+
+  static String imgBack6 = 'assets/images/img_back_6.png';
 
   static String imgCalifornianrab = 'assets/images/img_californianrab.png';
 
@@ -35,9 +47,13 @@ class ImageConstant {
 
   static String imgChevron = 'assets/images/img_chevron.svg';
 
+  static String imgBack1 = 'assets/images/img_back_1.png';
+
   static String imgCalifornianrabb1 = 'assets/images/img_californianrabb_1.png';
 
   static String imgDoubledown = 'assets/images/img_doubledown.png';
+
+  static String imgBack3 = 'assets/images/img_back_3.png';
 
   static String imgLockeddoor2 = 'assets/images/img_lockeddoor_2.png';
 
@@ -52,6 +68,8 @@ class ImageConstant {
   static String imgChevron1 = 'assets/images/img_chevron_1.svg';
 
   static String imgTrash1 = 'assets/images/img_trash_1.png';
+
+  static String imgBack7 = 'assets/images/img_back_7.png';
 
   static String imgPlusmath = 'assets/images/img_plusmath.png';
 

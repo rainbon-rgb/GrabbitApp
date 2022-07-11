@@ -7,8 +7,6 @@ import 'package:grabbitapp/firebase/models/models.dart';
 class AddACageController extends GetxController {
   TextEditingController cageNameController = TextEditingController();
 
-  TextEditingController cageDescriptioController = TextEditingController();
-
   Rx<AddACageModel> addACageModelObj = AddACageModel().obs;
 
   FirebaseFirestore firestoreInstance = FirebaseFirestore.instance;
@@ -24,7 +22,6 @@ class AddACageController extends GetxController {
   void onClose() {
     super.onClose();
     cageNameController.dispose();
-    cageDescriptioController.dispose();
   }
 
   addCageDocument(Map<String, dynamic> model) {

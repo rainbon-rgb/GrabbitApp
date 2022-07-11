@@ -1,5 +1,5 @@
 import '/core/app_export.dart';
-import 'package:grabbitapp/presentation/transfer_a_rabbit_screen/models/transfer_a_rabbit_model.dart';
+import 'package:grabbitapp/presentation/transfer_a_rabbit_bottomsheet/models/transfer_a_rabbit_model.dart';
 
 class TransferARabbitController extends GetxController {
   Rx<TransferARabbitModel> transferARabbitModelObj = TransferARabbitModel().obs;

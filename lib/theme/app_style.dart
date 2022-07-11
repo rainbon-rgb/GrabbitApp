@@ -23,20 +23,13 @@ class AppStyle {
   );
 
   static TextStyle textstylemontserratromanmedium15 =
-      textstylemontserratromanmedium155.copyWith();
+      textstylemontserratromanmedium154.copyWith();
 
   static TextStyle textstylemontserratromanmedium20 =
-      textstylemontserratromanmedium202.copyWith();
+      textstylemontserratromanmedium201.copyWith();
 
   static TextStyle textstylemontserratromanmedium201 =
-      textstylemontserratromanmedium155.copyWith(
-    fontSize: getFontSize(
-      20,
-    ),
-  );
-
-  static TextStyle textstylemontserratromanmedium202 =
-      textstylemontserratromanmedium153.copyWith(
+      textstylemontserratromanmedium154.copyWith(
     fontSize: getFontSize(
       20,
     ),
@@ -82,7 +75,7 @@ class AppStyle {
   );
 
   static TextStyle textstylemontserratromanmedium23 =
-      textstylemontserratromanmedium155.copyWith(
+      textstylemontserratromanmedium154.copyWith(
     fontSize: getFontSize(
       23,
     ),
@@ -97,13 +90,8 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle textstylemontserratlight20 =
-      textstylemontserratromanmedium202.copyWith(
-    fontWeight: FontWeight.w300,
-  );
-
   static TextStyle textstylemontserratromanmedium151 =
-      textstylemontserratromanmedium155.copyWith();
+      textstylemontserratromanmedium154.copyWith();
 
   static TextStyle textstylerobotoromanregular20 = textstyleregular20.copyWith(
     fontFamily: 'Roboto',
@@ -119,6 +107,9 @@ class AppStyle {
   static TextStyle textstylerobotoregular141 =
       textstylerobotoregular142.copyWith();
 
+  static TextStyle textstylemontserratromanmedium152 =
+      textstylemontserratromanmedium154.copyWith();
+
   static TextStyle textstylepoppinsregular15 = TextStyle(
     color: ColorConstant.black900A2,
     fontSize: getFontSize(
@@ -127,12 +118,6 @@ class AppStyle {
     fontFamily: 'Poppins',
     fontWeight: FontWeight.w400,
   );
-
-  static TextStyle textstylemontserratromanmedium152 =
-      textstylemontserratromanmedium155.copyWith();
-
-  static TextStyle textstylemontserratromanmedium153 =
-      textstylemontserratromanmedium155.copyWith();
 
   static TextStyle textstylerobotoregular142 = TextStyle(
     color: ColorConstant.black90060,
@@ -143,10 +128,10 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle textstylemontserratromanmedium154 =
-      textstylemontserratromanmedium155.copyWith();
+  static TextStyle textstylemontserratromanmedium153 =
+      textstylemontserratromanmedium154.copyWith();
 
-  static TextStyle textstylemontserratromanmedium155 = TextStyle(
+  static TextStyle textstylemontserratromanmedium154 = TextStyle(
     color: ColorConstant.black900Null,
     fontSize: getFontSize(
       15,

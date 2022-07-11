@@ -187,64 +187,6 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                         ]))),
                                             GestureDetector(
                                                 onTap: () {
-                                                  onTapTransferaRabbit();
-                                                },
-                                                child: Container(
-                                                    width: getHorizontalSize(
-                                                        375.00),
-                                                    decoration: BoxDecoration(
-                                                        color: ColorConstant
-                                                            .whiteA700),
-                                                    child: Column(
-                                                        mainAxisSize:
-                                                            MainAxisSize.min,
-                                                        mainAxisAlignment:
-                                                            MainAxisAlignment
-                                                                .start,
-                                                        children: [
-                                                          Align(
-                                                              alignment: Alignment
-                                                                  .centerLeft,
-                                                              child: Padding(
-                                                                  padding: EdgeInsets.only(
-                                                                      left: getHorizontalSize(
-                                                                          20.00),
-                                                                      top: getVerticalSize(
-                                                                          10.00),
-                                                                      right: getHorizontalSize(
-                                                                          20.00),
-                                                                      bottom: getVerticalSize(
-                                                                          10.00)),
-                                                                  child: Text(
-                                                                      "msg_transfer_a_rabb2"
-                                                                          .tr,
-                                                                      overflow:
-                                                                          TextOverflow
-                                                                              .ellipsis,
-                                                                      textAlign:
-                                                                          TextAlign
-                                                                              .center,
-                                                                      style: AppStyle
-                                                                          .textstyleregular20
-                                                                          .copyWith(fontSize: getFontSize(20))))),
-                                                          Container(
-                                                              height:
-                                                                  getVerticalSize(
-                                                                      1.00),
-                                                              width:
-                                                                  getHorizontalSize(
-                                                                      375.00),
-                                                              margin: EdgeInsets
-                                                                  .only(
-                                                                      top: getVerticalSize(
-                                                                          5.00)),
-                                                              decoration:
-                                                                  BoxDecoration(
-                                                                      color: ColorConstant
-                                                                          .bluegray400))
-                                                        ]))),
-                                            GestureDetector(
-                                                onTap: () {
                                                   onTapSelectaCage();
                                                 },
                                                 child: Container(
@@ -419,64 +361,6 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                         ]))),
                                             GestureDetector(
                                                 onTap: () {
-                                                  onTapDeleteaCage();
-                                                },
-                                                child: Container(
-                                                    width: getHorizontalSize(
-                                                        375.00),
-                                                    decoration: BoxDecoration(
-                                                        color: ColorConstant
-                                                            .whiteA700),
-                                                    child: Column(
-                                                        mainAxisSize:
-                                                            MainAxisSize.min,
-                                                        mainAxisAlignment:
-                                                            MainAxisAlignment
-                                                                .start,
-                                                        children: [
-                                                          Align(
-                                                              alignment: Alignment
-                                                                  .centerLeft,
-                                                              child: Padding(
-                                                                  padding: EdgeInsets.only(
-                                                                      left: getHorizontalSize(
-                                                                          20.00),
-                                                                      top: getVerticalSize(
-                                                                          10.00),
-                                                                      right: getHorizontalSize(
-                                                                          20.00),
-                                                                      bottom: getVerticalSize(
-                                                                          10.00)),
-                                                                  child: Text(
-                                                                      "lbl_delete_a_cage"
-                                                                          .tr,
-                                                                      overflow:
-                                                                          TextOverflow
-                                                                              .ellipsis,
-                                                                      textAlign:
-                                                                          TextAlign
-                                                                              .center,
-                                                                      style: AppStyle
-                                                                          .textstyleregular20
-                                                                          .copyWith(fontSize: getFontSize(20))))),
-                                                          Container(
-                                                              height:
-                                                                  getVerticalSize(
-                                                                      1.00),
-                                                              width:
-                                                                  getHorizontalSize(
-                                                                      375.00),
-                                                              margin: EdgeInsets
-                                                                  .only(
-                                                                      top: getVerticalSize(
-                                                                          5.00)),
-                                                              decoration:
-                                                                  BoxDecoration(
-                                                                      color: ColorConstant
-                                                                          .bluegray400))
-                                                        ]))),
-                                            GestureDetector(
-                                                onTap: () {
                                                   onTapRabbitDetailsformeatselling();
                                                 },
                                                 child: Container(
@@ -565,64 +449,6 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                                           10.00)),
                                                                   child: Text(
                                                                       "lbl_homepage"
-                                                                          .tr,
-                                                                      overflow:
-                                                                          TextOverflow
-                                                                              .ellipsis,
-                                                                      textAlign:
-                                                                          TextAlign
-                                                                              .center,
-                                                                      style: AppStyle
-                                                                          .textstyleregular20
-                                                                          .copyWith(fontSize: getFontSize(20))))),
-                                                          Container(
-                                                              height:
-                                                                  getVerticalSize(
-                                                                      1.00),
-                                                              width:
-                                                                  getHorizontalSize(
-                                                                      375.00),
-                                                              margin: EdgeInsets
-                                                                  .only(
-                                                                      top: getVerticalSize(
-                                                                          5.00)),
-                                                              decoration:
-                                                                  BoxDecoration(
-                                                                      color: ColorConstant
-                                                                          .bluegray400))
-                                                        ]))),
-                                            GestureDetector(
-                                                onTap: () {
-                                                  onTapDeleteaRabbit();
-                                                },
-                                                child: Container(
-                                                    width: getHorizontalSize(
-                                                        375.00),
-                                                    decoration: BoxDecoration(
-                                                        color: ColorConstant
-                                                            .whiteA700),
-                                                    child: Column(
-                                                        mainAxisSize:
-                                                            MainAxisSize.min,
-                                                        mainAxisAlignment:
-                                                            MainAxisAlignment
-                                                                .start,
-                                                        children: [
-                                                          Align(
-                                                              alignment: Alignment
-                                                                  .centerLeft,
-                                                              child: Padding(
-                                                                  padding: EdgeInsets.only(
-                                                                      left: getHorizontalSize(
-                                                                          20.00),
-                                                                      top: getVerticalSize(
-                                                                          10.00),
-                                                                      right: getHorizontalSize(
-                                                                          20.00),
-                                                                      bottom: getVerticalSize(
-                                                                          10.00)),
-                                                                  child: Text(
-                                                                      "lbl_delete_a_rabbit"
                                                                           .tr,
                                                                       overflow:
                                                                           TextOverflow
@@ -893,10 +719,6 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
     Get.toNamed(AppRoutes.scanScreen);
   }
 
-  onTapTransferaRabbit() {
-    Get.toNamed(AppRoutes.transferARabbitScreen);
-  }
-
   onTapSelectaCage() {
     Get.toNamed(AppRoutes.selectACageScreen);
   }
@@ -909,20 +731,12 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
     Get.toNamed(AppRoutes.sellARabbitScreen);
   }
 
-  onTapDeleteaCage() {
-    Get.toNamed(AppRoutes.deleteACageScreen);
-  }
-
   onTapRabbitDetailsformeatselling() {
     Get.toNamed(AppRoutes.rabbitDetailsForMeatSellingScreen);
   }
 
   onTapHomepage() {
     Get.toNamed(AppRoutes.homepageScreen);
-  }
-
-  onTapDeleteaRabbit() {
-    Get.toNamed(AppRoutes.deleteARabbitScreen);
   }
 
   onTapAddaCage() {

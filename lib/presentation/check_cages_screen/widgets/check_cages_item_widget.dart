@@ -5,20 +5,16 @@ import 'package:grabbitapp/core/app_export.dart';
 
 // ignore: must_be_immutable
 class CheckCagesItemWidget extends StatelessWidget {
-  CheckCagesItemWidget(this.checkCagesItemModelObj, {this.onTapCageoo});
+  CheckCagesItemWidget(this.checkCagesItemModelObj);
 
   CheckCagesItemModel checkCagesItemModelObj;
 
   var controller = Get.find<CheckCagesController>();
 
-  VoidCallback? onTapCageoo;
-
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: () {
-        onTapCageoo!();
-      },
+    return Align(
+      alignment: Alignment.centerRight,
       child: Container(
         decoration: BoxDecoration(
           color: ColorConstant.amber401,
@@ -27,21 +23,6 @@ class CheckCagesItemWidget extends StatelessWidget {
               22.00,
             ),
           ),
-          boxShadow: [
-            BoxShadow(
-              color: ColorConstant.black9003f,
-              spreadRadius: getHorizontalSize(
-                2.00,
-              ),
-              blurRadius: getHorizontalSize(
-                2.00,
-              ),
-              offset: Offset(
-                6,
-                7,
-              ),
-            ),
-          ],
         ),
         child: Column(
           mainAxisSize: MainAxisSize.min,

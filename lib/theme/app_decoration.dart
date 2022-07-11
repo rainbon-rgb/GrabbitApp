@@ -20,7 +20,7 @@ class AppDecoration {
         color: ColorConstant.amber400,
         borderRadius: BorderRadius.circular(
           getHorizontalSize(
-            17.11,
+            16.85,
           ),
         ),
         boxShadow: [
@@ -35,6 +35,35 @@ class AppDecoration {
             offset: Offset(
               6,
               6,
+            ),
+          ),
+        ],
+      );
+  static BoxDecoration get groupstylewhiteA7001 => BoxDecoration(
+        color: ColorConstant.whiteA7007c,
+        borderRadius: BorderRadius.circular(
+          getHorizontalSize(
+            30.24,
+          ),
+        ),
+        border: Border.all(
+          color: ColorConstant.black900Null,
+          width: getHorizontalSize(
+            1.00,
+          ),
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: ColorConstant.black9003f,
+            spreadRadius: getHorizontalSize(
+              2.00,
+            ),
+            blurRadius: getHorizontalSize(
+              2.00,
+            ),
+            offset: Offset(
+              3,
+              4,
             ),
           ),
         ],
@@ -46,120 +75,12 @@ class AppDecoration {
             22.00,
           ),
         ),
-        boxShadow: [
-          BoxShadow(
-            color: ColorConstant.black9003f,
-            spreadRadius: getHorizontalSize(
-              2.00,
-            ),
-            blurRadius: getHorizontalSize(
-              2.00,
-            ),
-            offset: Offset(
-              6,
-              7,
-            ),
-          ),
-        ],
-      );
-  static BoxDecoration get groupstyleorange50cornerradius => BoxDecoration(
-        color: ColorConstant.orange50,
-        borderRadius: BorderRadius.only(
-          topLeft: Radius.circular(
-            getHorizontalSize(
-              50.00,
-            ),
-          ),
-          topRight: Radius.circular(
-            getHorizontalSize(
-              50.00,
-            ),
-          ),
-          bottomLeft: Radius.circular(
-            getHorizontalSize(
-              0.00,
-            ),
-          ),
-          bottomRight: Radius.circular(
-            getHorizontalSize(
-              0.00,
-            ),
-          ),
-        ),
       );
   static BoxDecoration get groupstyleamberA100cornerradius => BoxDecoration(
         color: ColorConstant.amberA100,
         borderRadius: BorderRadius.circular(
           getHorizontalSize(
-            4.00,
-          ),
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: ColorConstant.black9003f,
-            spreadRadius: getHorizontalSize(
-              2.00,
-            ),
-            blurRadius: getHorizontalSize(
-              2.00,
-            ),
-            offset: Offset(
-              8,
-              6,
-            ),
-          ),
-        ],
-      );
-  static BoxDecoration get groupstylecornerradius => BoxDecoration(
-        borderRadius: BorderRadius.circular(
-          getHorizontalSize(
-            15.00,
-          ),
-        ),
-        border: Border.all(
-          color: ColorConstant.blue70019,
-          width: getHorizontalSize(
-            1.00,
-          ),
-        ),
-        gradient: LinearGradient(
-          begin: Alignment(
-            0.5,
-            -3.0616171314629196e-17,
-          ),
-          end: Alignment(
-            0.5,
-            0.9999999999999999,
-          ),
-          colors: [
-            ColorConstant.amberA10033,
-            ColorConstant.amberA10033,
-            ColorConstant.amberA10033,
-          ],
-        ),
-      );
-  static BoxDecoration get groupstyleamber400cornerradius => BoxDecoration(
-        color: ColorConstant.amber400,
-        borderRadius: BorderRadius.only(
-          topLeft: Radius.circular(
-            getHorizontalSize(
-              50.00,
-            ),
-          ),
-          topRight: Radius.circular(
-            getHorizontalSize(
-              50.00,
-            ),
-          ),
-          bottomLeft: Radius.circular(
-            getHorizontalSize(
-              0.00,
-            ),
-          ),
-          bottomRight: Radius.circular(
-            getHorizontalSize(
-              0.00,
-            ),
+            10.00,
           ),
         ),
       );
@@ -235,11 +156,36 @@ class AppDecoration {
           ),
         ],
       );
+  static BoxDecoration get groupstylewhiteA700cornerradius => BoxDecoration(
+        color: ColorConstant.whiteA700,
+        borderRadius: BorderRadius.only(
+          topLeft: Radius.circular(
+            getHorizontalSize(
+              10.00,
+            ),
+          ),
+          topRight: Radius.circular(
+            getHorizontalSize(
+              10.00,
+            ),
+          ),
+          bottomLeft: Radius.circular(
+            getHorizontalSize(
+              0.00,
+            ),
+          ),
+          bottomRight: Radius.circular(
+            getHorizontalSize(
+              0.00,
+            ),
+          ),
+        ),
+      );
   static BoxDecoration get groupstylewhiteA7007ccornerradius => BoxDecoration(
         color: ColorConstant.whiteA7007c,
         borderRadius: BorderRadius.circular(
           getHorizontalSize(
-            30.24,
+            4.00,
           ),
         ),
         border: Border.all(
@@ -248,32 +194,12 @@ class AppDecoration {
             1.00,
           ),
         ),
-        boxShadow: [
-          BoxShadow(
-            color: ColorConstant.black9003f,
-            spreadRadius: getHorizontalSize(
-              2.00,
-            ),
-            blurRadius: getHorizontalSize(
-              2.00,
-            ),
-            offset: Offset(
-              3,
-              4,
-            ),
-          ),
-        ],
       );
-  static BoxDecoration get textstylemontserratlight20 => BoxDecoration(
+  static BoxDecoration get groupstyleamber3 => BoxDecoration(
+        color: ColorConstant.amberA100,
         borderRadius: BorderRadius.circular(
           getHorizontalSize(
-            18.12,
-          ),
-        ),
-        border: Border.all(
-          color: ColorConstant.black900Null,
-          width: getHorizontalSize(
-            1.00,
+            15.00,
           ),
         ),
       );
@@ -281,30 +207,27 @@ class AppDecoration {
         color: ColorConstant.whiteA700,
         borderRadius: BorderRadius.circular(
           getHorizontalSize(
-            17.11,
+            16.85,
           ),
         ),
-        boxShadow: [
-          BoxShadow(
-            color: ColorConstant.black9003f,
-            spreadRadius: getHorizontalSize(
-              2.00,
-            ),
-            blurRadius: getHorizontalSize(
-              2.00,
-            ),
-            offset: Offset(
-              6,
-              6,
-            ),
+        border: Border.all(
+          color: ColorConstant.black900Null,
+          width: getHorizontalSize(
+            1.00,
           ),
-        ],
+        ),
       );
   static BoxDecoration get groupstyleamber2 => BoxDecoration(
         color: ColorConstant.amberA100,
         borderRadius: BorderRadius.circular(
           getHorizontalSize(
             15.00,
+          ),
+        ),
+        border: Border.all(
+          color: ColorConstant.black900Null,
+          width: getHorizontalSize(
+            1.00,
           ),
         ),
       );
@@ -315,27 +238,12 @@ class AppDecoration {
             11.00,
           ),
         ),
-        boxShadow: [
-          BoxShadow(
-            color: ColorConstant.black9003f,
-            spreadRadius: getHorizontalSize(
-              2.00,
-            ),
-            blurRadius: getHorizontalSize(
-              2.00,
-            ),
-            offset: Offset(
-              8,
-              6,
-            ),
-          ),
-        ],
       );
   static BoxDecoration get textstyleregular0 => BoxDecoration(
         color: ColorConstant.whiteA7007c,
         borderRadius: BorderRadius.circular(
           getHorizontalSize(
-            30.24,
+            5.00,
           ),
         ),
         border: Border.all(
@@ -343,44 +251,6 @@ class AppDecoration {
           width: getHorizontalSize(
             1.00,
           ),
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: ColorConstant.black9003f,
-            spreadRadius: getHorizontalSize(
-              2.00,
-            ),
-            blurRadius: getHorizontalSize(
-              2.00,
-            ),
-            offset: Offset(
-              3,
-              4,
-            ),
-          ),
-        ],
-      );
-  static BoxDecoration get groupstyle => BoxDecoration(
-        border: Border.all(
-          color: ColorConstant.blue70019,
-          width: getHorizontalSize(
-            1.00,
-          ),
-        ),
-        gradient: LinearGradient(
-          begin: Alignment(
-            0.5,
-            -3.0616171314629196e-17,
-          ),
-          end: Alignment(
-            0.5,
-            0.9999999999999999,
-          ),
-          colors: [
-            ColorConstant.amberA10033,
-            ColorConstant.amberA10033,
-            ColorConstant.amberA10033,
-          ],
         ),
       );
   static BoxDecoration get textstylerobotoregular141 => BoxDecoration(
@@ -400,36 +270,7 @@ class AppDecoration {
         color: ColorConstant.amber400,
         borderRadius: BorderRadius.circular(
           getHorizontalSize(
-            18.32,
-          ),
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: ColorConstant.black9003f,
-            spreadRadius: getHorizontalSize(
-              2.00,
-            ),
-            blurRadius: getHorizontalSize(
-              2.00,
-            ),
-            offset: Offset(
-              6,
-              6,
-            ),
-          ),
-        ],
-      );
-  static BoxDecoration get textstylemontserratromanmedium153 => BoxDecoration(
-        color: ColorConstant.whiteA700,
-        borderRadius: BorderRadius.circular(
-          getHorizontalSize(
-            18.32,
-          ),
-        ),
-        border: Border.all(
-          color: ColorConstant.lime900,
-          width: getHorizontalSize(
-            1.00,
+            17.00,
           ),
         ),
         boxShadow: [
@@ -461,7 +302,7 @@ class AppDecoration {
           ),
         ),
       );
-  static BoxDecoration get textstylemontserratromanmedium154 => BoxDecoration(
+  static BoxDecoration get textstylemontserratromanmedium153 => BoxDecoration(
         borderRadius: BorderRadius.circular(
           getHorizontalSize(
             20.30,
@@ -474,7 +315,7 @@ class AppDecoration {
           ),
         ),
       );
-  static BoxDecoration get textstylemontserratromanmedium155 => BoxDecoration(
+  static BoxDecoration get textstylemontserratromanmedium154 => BoxDecoration(
         color: ColorConstant.amber400,
         borderRadius: BorderRadius.circular(
           getHorizontalSize(

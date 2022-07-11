@@ -1,5 +1,5 @@
 import '/core/app_export.dart';
-import 'package:grabbitapp/presentation/delete_a_cage_screen/models/delete_a_cage_model.dart';
+import 'package:grabbitapp/presentation/delete_a_cage_bottomsheet/models/delete_a_cage_model.dart';
 
 class DeleteACageController extends GetxController {
   Rx<DeleteACageModel> deleteACageModelObj = DeleteACageModel().obs;
